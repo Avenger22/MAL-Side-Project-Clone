@@ -68,7 +68,7 @@ section.container-1 .menus-wrapper main.main-1 {
     grid-area: main-1-1;
     outline: 0.5px solid #000;
     display: grid;
-    grid-template-rows: 0.05fr 0.45fr 0.5fr;
+    grid-template-rows: 0.05fr 0.40fr 0.55fr;
     grid-gap: 5px;
     /* align-items: center; */
 }
@@ -270,7 +270,103 @@ section.container-1 main.main-1 nav.nav-4 ul.ul-4-1 li#li-special {
 section.container-1 main.main-1 .main-1-sub-2 {
     display: grid;
     outline: 0.5px solid #000;
+    grid-template-rows: 1fr;
+}
+
+section.container-1 main.main-1 .main-1-sub-2 .image-wrapper-1 {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
+    place-items: center;
+    padding-left: 15px;
 }
+
+section.container-1 main.main-1 .main-1-sub-2 .image-wrapper-1 .image-box-1 {
+    display: grid;
+    grid-template-rows: 0.9fr 0.1fr;
+}
+
+section.container-1 main.main-1 .main-1-sub-2 .image-wrapper-1 .image-box-1 img {
+    height: 140px;
+    width: 240px;
+}
+
+section.container-1 main.main-1 .main-1-sub-2 .image-wrapper-1 .image-box-1 h3 {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: normal;
+    width: 90%;
+}
+
+
+
+section.container-1 main.main-1 .main-1-sub-3 {
+    display: grid;
+    outline: 0.5px solid #000;
+    grid-template-rows: 0.05fr 0.95fr;
+}
+
+section.container-1 main.main-1 .main-1-sub-3 .main-1-ribbon {
+    display: grid;
+    grid-template-rows: 1fr;
+    outline: 0.5px solid #000;
+}
+
+section.container-1 main.main-1 .main-1-sub-3 .main-1-ribbon nav.nav-5 {
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+section.container-1 main.main-1 .main-1-sub-3 .main-1-ribbon nav.nav-5 ul.ul-5-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: start;
+    padding-left: 15px;
+}
+
+section.container-1 main.main-1 .main-1-sub-3 .main-1-ribbon nav.nav-5 ul.ul-5-1 li {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+section.container-1 main.main-1 .main-1-sub-3 .main-1-ribbon nav.nav-5 ul.ul-5-1 li#li-special-2 {
+    display: grid;
+    justify-self: end;
+    padding-right: 15px;
+    font-size: 12px;
+}
+
+section.container-1 main.main-1 .main-1-sub-3 .image-wrapper-2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding-left: 15px;
+}
+
+section.container-1 main.main-1 .main-1-sub-3 .image-wrapper-2 .image-box-2 {
+    display: grid;
+    grid-template-rows: 9fr 16px;
+}
+
+section.container-1 main.main-1 .main-1-sub-3 .image-wrapper-2 .image-box-2 img {
+    height: 220px;
+    width: 160px;
+    position: absolute;
+}
+
+section.container-1 main.main-1 .main-1-sub-3 .image-wrapper-2 .image-box-2 span {
+    position: relative;
+    font-size: 16px;
+    color: #eb6100;
+    font-weight: 900;
+    display: grid;
+    align-self: end;
+    justify-self: start;
+    z-index: 1;
+}
+
+
+
+
 
