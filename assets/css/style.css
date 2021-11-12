@@ -67,6 +67,10 @@ section.container-1 .menus-wrapper header.header-3 {
 section.container-1 .menus-wrapper main.main-1 {
     grid-area: main-1-1;
     outline: 0.5px solid #000;
+    display: grid;
+    grid-template-rows: 0.05fr 0.45fr 0.5fr;
+    grid-gap: 5px;
+    /* align-items: center; */
 }
 
 section.container-1 .menus-wrapper aside.aside-1 {
@@ -228,3 +232,45 @@ section.container-1 header.header-3 nav.nav-3 ul.ul-3-1 li {
     letter-spacing: normal;
     color: #000;
 }
+
+section.container-1 main.main-1 .main-1-sub-1 {
+    display: grid;
+    grid-template-rows: 1fr;
+    outline: 0.5px solid #000;
+    padding-top: 20px;
+}
+
+section.container-1 main.main-1 nav.nav-4 {
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+section.container-1 main.main-1 nav.nav-4 ul.ul-4-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: start;
+    padding-left: 15px;
+}
+
+section.container-1 main.main-1 nav.nav-4 ul.ul-4-1 li {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: normal;
+}
+
+section.container-1 main.main-1 nav.nav-4 ul.ul-4-1 li#li-special {
+    display: grid;
+    justify-self: end;
+    padding-right: 15px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+section.container-1 main.main-1 .main-1-sub-2 {
+    display: grid;
+    outline: 0.5px solid #000;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
