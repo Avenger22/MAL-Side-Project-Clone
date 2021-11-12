@@ -346,7 +346,7 @@ section.container-1 main.main-1 .main-1-sub-3 .image-wrapper-2 {
 
 section.container-1 main.main-1 .main-1-sub-3 .image-wrapper-2 .image-box-2 {
     display: grid;
-    grid-template-rows: 9fr 16px;
+    grid-template-rows: 9fr 40px;
 }
 
 section.container-1 main.main-1 .main-1-sub-3 .image-wrapper-2 .image-box-2 img {
@@ -357,12 +357,12 @@ section.container-1 main.main-1 .main-1-sub-3 .image-wrapper-2 .image-box-2 img 
 
 section.container-1 main.main-1 .main-1-sub-3 .image-wrapper-2 .image-box-2 span {
     position: relative;
-    font-size: 16px;
-    color: #eb6100;
+    font-size: 15px;
+    color: #fff;
     font-weight: 900;
     display: grid;
     align-self: end;
-    justify-self: start;
+    justify-self: center;
     z-index: 1;
 }
 
