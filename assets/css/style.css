@@ -612,7 +612,7 @@ section.container-2 main.main-2 .main-2-sub-2 .image-wrapper-2 {
 
 section.container-2 main.main-2 .main-2-sub-2 .image-wrapper-2 .image-box-2 {
     display: grid;
-    grid-template-rows: auto 20px 20px;
+    grid-template-rows: 1fr 40px;
 }
 
 section.container-2 main.main-2 .main-2-sub-2 .image-wrapper-2 .image-box-2 img {
@@ -630,6 +630,8 @@ section.container-2 main.main-2 .main-2-sub-2 .image-wrapper-2 .image-box-2 span
     align-self: center;
     justify-self: center;
     z-index: 1;
+    border: 1px solid #fff;
+    padding: 6px 6px;
 }
 
 section.container-2 aside.aside-2 {
@@ -751,7 +753,7 @@ section.container-2 main.main-2 .main-2-sub-3 .main-2-ribbon nav.nav-8 ul.ul-8-1
 
 section.container-2 main.main-2 .main-2-sub-3 .articles-wrapper-1 {
     display: grid;
-    grid-template-rows: 0.5fr 0.5fr;
+    grid-template-rows: repeat(2, 0.5fr);
     grid-gap: 10px;
     padding-left: 15px;
     padding-top: 20px;
